@@ -20,16 +20,16 @@ string name = "christopher";
 
 int base = 0; 
 int exponent; 
-int times2 ;
+int times2 = 0;
 // this will not print the ans 
 cout << " enter base " << endl; 
 cin >> base; 
 
 cout << " enter exponent" << endl; 
 cin >> exponent; 
-int result; 
+int result =1; 
 while ( times2 <= exponent )  { 
-cout << " Ans is : " << endl;
+
    
     result = base * result; 
     
@@ -37,6 +37,7 @@ cout << " Ans is : " << endl;
     
    
 } 
+cout << " Ans is : " << endl;
 cout <<"\n"<< result << endl; 
 
 
